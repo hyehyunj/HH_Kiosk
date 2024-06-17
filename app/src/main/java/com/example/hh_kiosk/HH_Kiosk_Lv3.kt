@@ -182,7 +182,7 @@ fun main(){
                         if (order != 9 && order != 0) {
                             println("선물포장을 원하시면 1을, 원치 않으시면 2를 입력해주세요.")
                             option = readLine()!!.toInt()
-                            if(option == 1) menuDessert.gift()
+                                if(option == 1) menuDessert.gift()
                         }
                         else if(order == 0){
                             println("감사합니다. 또 오세요-!")
